@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+}
+.box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+}
+
+/* navbar content */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 80vw;
+    height: auto;
+    gap: 20px;
+}
+nav img {
+    margin: 1rem;
+    color: red; 
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 32px;
+    padding: 0.6rem;
+}
+.btn-red-sm {
+    background-color: white;
+    color: black;
+}
